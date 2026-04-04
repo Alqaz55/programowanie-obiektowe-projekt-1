@@ -3,8 +3,11 @@
 
 #include <vector>
 using namespace std;
+#include <iostream>
 #include <cstdlib>  
 #include <ctime>
+#include <fstream>
+#include <stdio.h>
 
 
 #define WORLD_WIDTH 10

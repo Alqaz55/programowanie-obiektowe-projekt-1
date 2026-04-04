@@ -1,4 +1,6 @@
 #include "Organizm.hpp"
+#include <ncurses.h>
+
 
 Organizm::Organizm() : strength(0), initiative(0), x(0), y(0) {}
 Organizm::~Organizm() = default;
@@ -16,3 +18,7 @@ void Organizm::set_X(int new_x) { x = new_x; }
 void Organizm::set_Y(int new_y) { y = new_y; }
 void Organizm::set_Age(){ wiek = 0; }
 void Organizm::set_next(Organizm* new_next) {  next_in_line = new_next;}
+
+void Organizm::draw(){ 
+    mvaddch(y+1, x+1, this->get_Char());
+ }

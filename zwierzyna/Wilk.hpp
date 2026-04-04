@@ -7,12 +7,12 @@ class Wilk : public Organizm
     int kierunek;
     int remembered;
 public:
-    Wilk(int startX, int startY);
+    Wilk(int startX, int startY, Swiat* world);
     ~Wilk() override;
 
     void action() override;
     void collision(Organizm *organizm) override;
-    void draw() override;
+    char get_Char() const override;
     void move() override;
     void do_turn() override;
     void remember_key(int key);

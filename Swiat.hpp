@@ -1,30 +1,41 @@
 #pragma once
 #include "defines.hpp"
-#include "zwierzyna/Wilk.hpp"
+class Organizm;
 
-typedef struct pole{
-Organizm* organisms[MAX_ORG_PER_SQUARE];
+struct pole
+{
+  Organizm *organisms;
 };
 
-
-class Swiat {
+class Swiat
+{
 private:
-  int world[WORLD_WIDTH][WORLD_HEIGHT];
+  pole world[WORLD_WIDTH][WORLD_HEIGHT];
 
-Organizm* organisms;
-Organizm* added_organisms;
+  Organizm *organisms;
+  Organizm *added_organisms;
+  int key;
 
 public:
+  void start_list(Organizm *a);
 
-void add_after_a(Organizm *a, Organizm *nowa);
+  void add_after_a(Organizm *a, Organizm *nowa);
 
-void remove_after_a(Organizm *a);
+  void remove_after_a(Organizm *a);
+
+
+  void add_to_added(Organizm *nowy);
 
 
   Swiat();
   ~Swiat();
 
+  void remember_key(int key);
+  int get_key();
+
   void draw_world();
   void turn();
   void add_to_organisms();
+  pole *get_Pole(int x, int y);
+  void set_Pole(int x, int y, Organizm *organism);
 };

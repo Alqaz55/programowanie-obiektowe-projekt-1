@@ -1,5 +1,6 @@
 #pragma once
 #include "defines.hpp"
+#include "Swiat.hpp"
 
 class Organizm
 {
@@ -10,6 +11,7 @@ protected:
     int wiek;
     typ typ_organizmu;
     Organizm *next_in_line;
+    Swiat *swiat;
 
 public:
     Organizm();
@@ -20,6 +22,7 @@ public:
     virtual int get_X() const;
     virtual int get_Y() const;
     virtual int get_Age() const;
+    virtual char get_Char() const = 0;
 
     virtual Organizm *get_next() const;
 
@@ -34,6 +37,6 @@ public:
     virtual void do_turn() = 0;
     virtual void action() = 0;
     virtual void collision(Organizm *organizm) = 0;
-    virtual void draw() = 0;
+    void draw();
     virtual void move() = 0;
 };
