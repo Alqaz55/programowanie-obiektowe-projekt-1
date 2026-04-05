@@ -1,6 +1,10 @@
 #include <ncurses.h>
-#include "zwierzyna/Wilk.hpp"
-#include "zwierzyna/Czlowiek.hpp"
+#include "Wilk.hpp"
+#include "Czlowiek.hpp"
+
+
+ofstream debuguj("debug.txt");
+
 
 void draw_frame(int width, int height)
 {
@@ -18,7 +22,6 @@ void draw_frame(int width, int height)
         mvaddch(y, width + 1, '#');
     }
 }
-FILE *plik = fopen("pliczek.txt", "w");
 
 int main()
 {
@@ -34,10 +37,10 @@ int main()
     Swiat *swiat = new Swiat;
     // --- Tworzymy wilka ---
     Wilk zwierzak(2, 2, swiat);
-    Czlowiek czlowiek(2, 3, swiat);
+    Czlowiek czlowiek(2, 4, swiat);
 
-    swiat->add_to_added(&czlowiek);
     swiat->add_to_added(&zwierzak);
+    swiat->add_to_added(&czlowiek);
 
     swiat->add_to_organisms();
 
@@ -47,8 +50,7 @@ int main()
 
         clear();
         draw_frame(WORLD_WIDTH, WORLD_HEIGHT);
-        zwierzak.draw(); // rysuje wilka
-        czlowiek.draw();
+    swiat->draw_world();
         mvaddch(15, 0, swiat->get_key());
         refresh();
 

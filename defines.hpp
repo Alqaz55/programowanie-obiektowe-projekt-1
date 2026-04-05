@@ -8,6 +8,7 @@ using namespace std;
 #include <ctime>
 #include <fstream>
 #include <stdio.h>
+#include <ncurses.h>
 
 
 #define WORLD_WIDTH 10
@@ -18,3 +19,5 @@ using namespace std;
 enum typ{
 wilk
 };
+
+extern ofstream debuguj;
