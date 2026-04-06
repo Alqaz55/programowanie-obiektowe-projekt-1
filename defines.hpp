@@ -15,9 +15,22 @@ using namespace std;
 #define WORLD_HEIGHT 10
 #define MAX_ORG_PER_SQUARE 2
 
+#define LEFT -1
+#define RIGHT 1
+#define DOWN 1
+#define UP -1
+
+
 
 enum typ{
-wilk
+fauna,
+flora
 };
 
 extern ofstream debuguj;
+
+
+enum Kolory{
+    KOLOR_TRAWY,
+    KOLOR_MLECZY
+};

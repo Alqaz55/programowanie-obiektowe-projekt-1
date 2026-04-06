@@ -94,19 +94,19 @@ void Swiat::add_after_a(Organizm *a, Organizm *nowa)
     }
 }
 
-void Swiat::remove_after_a(Organizm *a)
+void Swiat::rechoose_square_after_a(Organizm *a)
 {
     if (a != nullptr && a->get_next() != nullptr)
     {
-        Organizm *being_removed = a->get_next();
-        Organizm *new_next = being_removed->get_next();
+        Organizm *being_rechoose_squared = a->get_next();
+        Organizm *new_next = being_rechoose_squared->get_next();
         a->set_next(new_next);
         if (new_next != nullptr)
         {
 
             new_next->set_previous(a);
         }
-        delete being_removed;
+        delete being_rechoose_squared;
     }
 }
 
@@ -254,8 +254,10 @@ void Swiat::turn()
     while (current != nullptr)
     {
         current->do_turn();
+        debuguj << current->get_Draw() << "  x: " << current->get_X() << "  y: " << current->get_Y() << "  age: " << current->get_Age() << endl;
         current = current->get_next();
     }
+   
     debuguj << endl;
 
     add_to_organisms();

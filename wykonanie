@@ -1,3 +1,3 @@
 #!/bin/bash
-g++ main.cpp Swiat.cpp Organizm.cpp Wilk.cpp Czlowiek.cpp -lncurses -o main
+g++ main.cpp Swiat.cpp Organizm.cpp Wilk.cpp Czlowiek.cpp Zwierze.cpp Roslina.cpp Trawa.cpp -lncurses -o main
 ./main

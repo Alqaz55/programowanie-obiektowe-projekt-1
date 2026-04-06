@@ -35,10 +35,39 @@ void Organizm::set_Age(int new_age) { wiek = new_age; }
 void Organizm::set_next(Organizm *new_next) { next_in_line = new_next; }
 void Organizm::set_previous(Organizm *new_previous) { previous = new_previous; }
 
-void Organizm::draw() {
-mvaddch(y+1, x+1, get_Char());
-}
+
 void Organizm::death() { world->add_to_dead(this);}
 void Organizm::reset_turn() {
     did_turn=0;
+}
+
+
+
+void Organizm::choose_square(int &potential_x, int &potential_y)
+{
+    int direction = rand() % 9;
+    int dx = direction % 3 - 1;
+    int dy = direction / 3 - 1;
+    if (!dx && !dy)
+    {
+        potential_x = x;
+        potential_y = y;
+        return;
+    }
+    if (x + dx >= 0 && x + dx < WORLD_WIDTH)
+    {
+        potential_x = x + dx;
+    }
+    else
+    {
+        potential_x = x;
+    }
+    if (y + dy >= 0 && y + dy < WORLD_HEIGHT)
+    {
+        potential_y = y + dy;
+    }
+    else
+    {
+        potential_y = y;
+    }
 }

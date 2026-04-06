@@ -25,7 +25,7 @@ public:
 
 
   void add_after_a(Organizm *a, Organizm *nowa);
-  void remove_after_a(Organizm *a);
+  void rechoose_square_after_a(Organizm *a);
   
   
   void start_organisms(Organizm *a);

@@ -1,0 +1,3527 @@
+NOWA TURA
+
+
+owo
+C  x: 2  y: 5  age: 1
+owo
+W  x: 1  y: 3  age: 1
+owo
+W kolizja z Wx:2 y:2
+W  x: 2  y: 2  age: 1
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C  x: 2  y: 6  age: 2
+owo
+W  x: 0  y: 2  age: 2
+owo
+W  x: 2  y: 2  age: 2
+owo
+W  x: 4  y: 2  age: 1
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C  x: 2  y: 7  age: 3
+owo
+W  x: 0  y: 2  age: 3
+owo
+W  x: 3  y: 3  age: 3
+owo
+W  x: 5  y: 1  age: 2
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C  x: 3  y: 7  age: 4
+owo
+W  x: 0  y: 2  age: 4
+owo
+W  x: 2  y: 4  age: 4
+owo
+W  x: 5  y: 2  age: 3
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C  x: 4  y: 7  age: 5
+owo
+W  x: 0  y: 3  age: 5
+owo
+W  x: 1  y: 5  age: 5
+owo
+W  x: 5  y: 1  age: 4
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:4 y:7
+C  x: 5  y: 7  age: 9
+owo
+W  x: 1  y: 4  age: 6
+owo
+W  x: 0  y: 6  age: 6
+owo
+W  x: 4  y: 0  age: 5
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:5 y:7
+C  x: 6  y: 7  age: 13
+owo
+W  x: 1  y: 5  age: 7
+owo
+W  x: 0  y: 5  age: 7
+owo
+W  x: 3  y: 0  age: 6
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:7
+C  x: 6  y: 6  age: 17
+owo
+W  x: 0  y: 4  age: 8
+owo
+W kolizja z Wx:0 y:5
+W  x: 0  y: 5  age: 8
+owo
+W  x: 3  y: 0  age: 7
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:6
+C  x: 6  y: 5  age: 21
+owo
+W kolizja z Wx:0 y:4
+W  x: 0  y: 4  age: 9
+owo
+W kolizja z Wx:0 y:5
+W  x: 0  y: 5  age: 9
+owo
+W  x: 2  y: 0  age: 8
+owo
+W kolizja z Rx:1 y:4
+W  x: 2  y: 5  age: 4
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:5
+C  x: 5  y: 5  age: 25
+owo
+W  x: 0  y: 4  age: 10
+owo
+W  x: 0  y: 5  age: 10
+owo
+W  x: 1  y: 0  age: 9
+owo
+W kolizja z Rx:2 y:5
+W  x: 3  y: 5  age: 8
+owo
+W kolizja z Rx:0 y:3
+W  x: 1  y: 2  age: 4
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:5 y:5
+C  x: 6  y: 5  age: 29
+owo
+W kolizja z Rx:0 y:4
+W  x: 1  y: 3  age: 14
+owo
+W  x: 0  y: 4  age: 11
+owo
+W  x: 0  y: 0  age: 10
+owo
+W kolizja z Rx:3 y:5
+W  x: 3  y: 6  age: 12
+owo
+W kolizja z Wx:1 y:2
+W  x: 1  y: 2  age: 5
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 1  y: 1  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:5
+C  x: 6  y: 6  age: 33
+owo
+W kolizja z Rx:1 y:3
+W  x: 2  y: 3  age: 18
+owo
+W  x: 0  y: 5  age: 12
+owo
+W  x: 0  y: 0  age: 11
+owo
+W kolizja z Rx:3 y:6
+W  x: 3  y: 7  age: 16
+owo
+W kolizja z Rx:1 y:2
+W  x: 1  y: 1  age: 9
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:6
+C  x: 7  y: 6  age: 37
+owo
+W  x: 1  y: 3  age: 19
+owo
+W kolizja z Rx:0 y:5
+W  x: 1  y: 4  age: 16
+owo
+W kolizja z Rx:0 y:0
+W  x: 1  y: 0  age: 15
+owo
+W kolizja z Rx:3 y:7
+W  x: 4  y: 6  age: 20
+owo
+W  x: 0  y: 0  age: 10
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:7 y:6
+C  x: 7  y: 5  age: 41
+owo
+W kolizja z Rx:1 y:3
+W  x: 2  y: 2  age: 23
+owo
+W kolizja z Rx:1 y:4
+W  x: 2  y: 4  age: 20
+owo
+W kolizja z Rx:1 y:0
+W  x: 1  y: 1  age: 19
+owo
+W kolizja z Rx:4 y:6
+W  x: 4  y: 7  age: 24
+owo
+W  x: 1  y: 0  age: 11
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 0  y: 1  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:7 y:5
+C  x: 6  y: 5  age: 45
+owo
+W kolizja z Rx:2 y:2
+W  x: 2  y: 1  age: 27
+owo
+W kolizja z Rx:2 y:4
+W  x: 3  y: 4  age: 24
+owo
+W kolizja z Wx:1 y:1
+W  x: 1  y: 1  age: 20
+owo
+W kolizja z Rx:4 y:7
+W  x: 5  y: 7  age: 28
+owo
+W kolizja z Rx:1 y:0
+W  x: 0  y: 0  age: 15
+uwu
+R  x: 1  y: 2  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 0  y: 1  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:5
+C  x: 6  y: 4  age: 49
+owo
+W  x: 1  y: 0  age: 28
+owo
+W kolizja z Rx:3 y:4
+W  x: 4  y: 4  age: 28
+owo
+W kolizja z Rx:1 y:1
+W  x: 1  y: 2  age: 24
+owo
+W  x: 5  y: 7  age: 29
+owo
+W  x: 1  y: 1  age: 16
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 0  y: 1  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:4
+C  x: 7  y: 4  age: 53
+owo
+W  x: 1  y: 0  age: 29
+owo
+W kolizja z Rx:4 y:4
+W  x: 3  y: 4  age: 32
+owo
+W kolizja z Rx:1 y:2
+W  x: 2  y: 2  age: 28
+owo
+W kolizja z Rx:5 y:7
+W  x: 6  y: 6  age: 33
+owo
+W  x: 1  y: 2  age: 17
+uwu
+R  x: 0  y: 0  age: 0
+uwu
+R  x: 0  y: 9  age: 0
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 0  y: 1  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:7 y:4
+C  x: 7  y: 3  age: 57
+owo
+W  x: 1  y: 0  age: 30
+owo
+W kolizja z Rx:3 y:4
+W  x: 4  y: 4  age: 36
+owo
+W kolizja z Rx:2 y:2
+W  x: 3  y: 3  age: 32
+owo
+W kolizja z Rx:6 y:6
+W  x: 6  y: 7  age: 37
+owo
+W kolizja z Rx:1 y:2
+W  x: 2  y: 1  age: 21
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 1  y: 1  age: 0
+uwu
+R  x: 0  y: 0  age: 0
+uwu
+R  x: 0  y: 9  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 0  y: 1  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:7 y:3
+C  x: 6  y: 3  age: 61
+owo
+W kolizja z Rx:1 y:0
+W  x: 0  y: 1  age: 34
+owo
+W kolizja z Wx:4 y:4
+W  x: 4  y: 4  age: 37
+owo
+W kolizja z Rx:3 y:3
+W  x: 4  y: 2  age: 36
+owo
+W kolizja z Rx:6 y:7
+W  x: 7  y: 6  age: 41
+owo
+W kolizja z Rx:2 y:1
+W  x: 2  y: 2  age: 25
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 1  y: 2  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 1  y: 1  age: 0
+uwu
+R  x: 0  y: 0  age: 0
+uwu
+R  x: 0  y: 9  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:3
+C  x: 6  y: 4  age: 65
+owo
+W kolizja z Rx:0 y:1
+W  x: 1  y: 0  age: 38
+owo
+W kolizja z Rx:4 y:4
+W  x: 4  y: 5  age: 41
+owo
+W kolizja z Rx:4 y:2
+W  x: 4  y: 3  age: 40
+owo
+W kolizja z Rx:7 y:6
+W  x: 6  y: 7  age: 45
+owo
+W  x: 2  y: 2  age: 26
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 1  y: 2  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 1  y: 1  age: 0
+uwu
+R  x: 0  y: 0  age: 0
+uwu
+R  x: 0  y: 9  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:4
+C  x: 6  y: 5  age: 69
+owo
+W kolizja z Rx:1 y:0
+W  x: 1  y: 1  age: 42
+owo
+W kolizja z Rx:4 y:5
+W  x: 3  y: 5  age: 45
+owo
+W kolizja z Rx:4 y:3
+W  x: 5  y: 2  age: 44
+owo
+W kolizja z Rx:6 y:7
+W  x: 6  y: 6  age: 49
+owo
+W kolizja z Rx:2 y:2
+W  x: 3  y: 3  age: 30
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 0  y: 1  age: 0
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 1  y: 2  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 0  y: 0  age: 0
+uwu
+R  x: 0  y: 9  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Wx:6 y:5
+C  x: 6  y: 6  age: 70
+owo
+W  x: 1  y: 1  age: 43
+owo
+W kolizja z Rx:3 y:5
+W  x: 4  y: 6  age: 49
+owo
+W kolizja z Rx:5 y:2
+W  x: 6  y: 2  age: 48
+owo
+W  x: 3  y: 3  age: 31
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 1  y: 0  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 0  y: 1  age: 0
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 1  y: 2  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 0  y: 0  age: 0
+uwu
+R  x: 0  y: 9  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 5  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:6
+C  x: 6  y: 7  age: 74
+owo
+W kolizja z Rx:1 y:1
+W  x: 0  y: 1  age: 47
+owo
+W kolizja z Rx:4 y:6
+W  x: 5  y: 5  age: 53
+owo
+W kolizja z Rx:6 y:2
+W  x: 5  y: 1  age: 52
+owo
+W  x: 3  y: 3  age: 32
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 4  y: 3  age: 0
+uwu
+R  x: 1  y: 0  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 1  y: 2  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 0  y: 0  age: 0
+uwu
+R  x: 0  y: 9  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 5  y: 6  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:6 y:7
+C  x: 7  y: 7  age: 78
+owo
+W kolizja z Rx:0 y:1
+W  x: 1  y: 0  age: 51
+owo
+W kolizja z Rx:5 y:5
+W  x: 5  y: 6  age: 57
+owo
+W  x: 5  y: 1  age: 53
+owo
+W kolizja z Rx:3 y:3
+W  x: 4  y: 3  age: 36
+uwu
+R  x: 1  y: 1  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 5  y: 2  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 4  y: 5  age: 0
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 1  y: 2  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 0  y: 0  age: 0
+uwu
+R  x: 0  y: 9  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 8  y: 7  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+
+NOWA TURA
+
+
+owo
+C kolizja z Rx:7 y:7
+C  x: 8  y: 7  age: 82
+owo
+W kolizja z Rx:1 y:0
+W  x: 0  y: 0  age: 55
+owo
+W kolizja z Rx:5 y:6
+W  x: 4  y: 5  age: 61
+owo
+W  x: 5  y: 1  age: 54
+owo
+W kolizja z Rx:4 y:3
+W  x: 5  y: 2  age: 40
+uwu
+R  x: 5  y: 5  age: 0
+uwu
+R  x: 6  y: 4  age: 0
+uwu
+R  x: 3  y: 3  age: 0
+uwu
+R  x: 6  y: 7  age: 0
+uwu
+R  x: 0  y: 1  age: 0
+uwu
+R  x: 1  y: 1  age: 0
+uwu
+R  x: 4  y: 6  age: 0
+uwu
+R  x: 6  y: 6  age: 0
+uwu
+R  x: 6  y: 2  age: 0
+uwu
+R  x: 3  y: 5  age: 0
+uwu
+R  x: 6  y: 5  age: 0
+uwu
+R  x: 6  y: 3  age: 0
+uwu
+R  x: 2  y: 2  age: 0
+uwu
+R  x: 4  y: 4  age: 0
+uwu
+R  x: 4  y: 2  age: 0
+uwu
+R  x: 7  y: 6  age: 0
+uwu
+R  x: 2  y: 1  age: 0
+uwu
+R  x: 7  y: 3  age: 0
+uwu
+R  x: 7  y: 4  age: 0
+uwu
+R  x: 3  y: 4  age: 0
+uwu
+R  x: 1  y: 2  age: 0
+uwu
+R  x: 5  y: 7  age: 0
+uwu
+R  x: 0  y: 9  age: 0
+uwu
+R  x: 7  y: 5  age: 0
+uwu
+R  x: 4  y: 7  age: 0
+uwu
+R  x: 2  y: 4  age: 0
+uwu
+R  x: 1  y: 4  age: 0
+uwu
+R  x: 1  y: 3  age: 0
+uwu
+R  x: 0  y: 5  age: 0
+uwu
+R  x: 1  y: 9  age: 0
+uwu
+R  x: 3  y: 7  age: 0
+uwu
+R  x: 2  y: 3  age: 0
+uwu
+R  x: 0  y: 8  age: 0
+uwu
+R  x: 1  y: 6  age: 0
+uwu
+R  x: 3  y: 0  age: 0
+uwu
+R  x: 0  y: 7  age: 0
+uwu
+R  x: 2  y: 5  age: 0
+uwu
+R  x: 0  y: 3  age: 0
+uwu
+R  x: 0  y: 4  age: 0
+uwu
+R  x: 3  y: 6  age: 0
+uwu
+R  x: 2  y: 9  age: 0
+uwu
+R  x: 9  y: 1  age: 0
+uwu
+R  x: 1  y: 8  age: 0
+uwu
+R  x: 2  y: 0  age: 0
+uwu
+R  x: 1  y: 7  age: 0
+uwu
+R  x: 5  y: 0  age: 0
+uwu
+R  x: 7  y: 0  age: 0
+uwu
+R  x: 2  y: 7  age: 0
+uwu
+R  x: 6  y: 0  age: 0
+uwu
+R  x: 0  y: 6  age: 0
+uwu
+R  x: 4  y: 0  age: 0
+uwu
+R  x: 8  y: 2  age: 0
+uwu
+R  x: 9  y: 0  age: 0
+uwu
+R  x: 8  y: 0  age: 0
+uwu
+R  x: 9  y: 2  age: 0
+uwu
+R  x: 2  y: 8  age: 0
+uwu
+R  x: 4  y: 9  age: 0
+uwu
+R  x: 3  y: 9  age: 0
+uwu
+R  x: 4  y: 1  age: 0
+uwu
+R  x: 2  y: 6  age: 0
+uwu
+R  x: 8  y: 1  age: 0
+uwu
+R  x: 0  y: 2  age: 0
+uwu
+R  x: 7  y: 1  age: 0
+uwu
+R  x: 9  y: 3  age: 0
+uwu
+R  x: 5  y: 8  age: 0
+uwu
+R  x: 3  y: 8  age: 0
+uwu
+R  x: 8  y: 3  age: 0
+uwu
+R  x: 6  y: 1  age: 0
+uwu
+R  x: 9  y: 4  age: 0
+uwu
+R  x: 5  y: 9  age: 0
+uwu
+R  x: 4  y: 8  age: 0
+uwu
+R  x: 1  y: 5  age: 0
+uwu
+R  x: 3  y: 1  age: 0
+uwu
+R  x: 3  y: 2  age: 0
+uwu
+R  x: 9  y: 5  age: 0
+uwu
+R  x: 7  y: 2  age: 0
+uwu
+R  x: 6  y: 9  age: 0
+uwu
+R  x: 9  y: 6  age: 0
+uwu
+R  x: 8  y: 4  age: 0
+uwu
+R  x: 8  y: 5  age: 0
+uwu
+R  x: 6  y: 8  age: 0
+uwu
+R  x: 8  y: 9  age: 0
+uwu
+R  x: 7  y: 9  age: 0
+uwu
+R  x: 5  y: 3  age: 0
+uwu
+R  x: 9  y: 9  age: 0
+uwu
+R  x: 9  y: 7  age: 0
+uwu
+R  x: 7  y: 8  age: 0
+uwu
+R  x: 8  y: 8  age: 0
+uwu
+R  x: 5  y: 4  age: 0
+uwu
+R  x: 8  y: 6  age: 0
+uwu
+R  x: 9  y: 8  age: 0
+uwu
+R  x: 7  y: 7  age: 0
+

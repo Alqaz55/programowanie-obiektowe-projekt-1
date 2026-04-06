@@ -1,10 +1,9 @@
 #include <ncurses.h>
 #include "Wilk.hpp"
 #include "Czlowiek.hpp"
-
+#include "Trawa.hpp"
 
 ofstream debuguj("debug.txt");
-
 
 void draw_frame(int width, int height)
 {
@@ -33,14 +32,24 @@ int main()
     noecho();             // nie pokazuje wpisywanych znaków
     curs_set(0);          // ukrywa kursor
     keypad(stdscr, TRUE); // włącz obsługę klawiszy specjalnych
+    start_color();
+
+    init_pair(KOLOR_TRAWY,COLOR_BLACK, COLOR_GREEN);
+    init_pair(KOLOR_MLECZY,COLOR_BLACK, COLOR_YELLOW);
+
 
     Swiat *swiat = new Swiat;
     // --- Tworzymy wilka ---
-    Wilk zwierzak(2, 2, swiat);
-    Czlowiek czlowiek(2, 4, swiat);
+    Wilk *zwierzak = new Wilk(2, 2, swiat);
+        Wilk* zwierzak2=new Wilk(2, 3, swiat);
 
-    swiat->add_to_added(&zwierzak);
-    swiat->add_to_added(&czlowiek);
+    Czlowiek* czlowiek=new Czlowiek(2, 4, swiat);
+    Trawa* trawka = new Trawa(7,7,swiat);
+
+    swiat->add_to_added(zwierzak);
+    swiat->add_to_added(zwierzak2);
+    swiat->add_to_added(trawka);
+    swiat->add_to_added(czlowiek);
 
     swiat->add_to_organisms();
 
@@ -50,8 +59,8 @@ int main()
 
         clear();
         draw_frame(WORLD_WIDTH, WORLD_HEIGHT);
-    swiat->draw_world();
-        mvaddch(15, 0, swiat->get_key());
+        swiat->draw_world();
+        mvaddch(20, 0, swiat->get_key());
         refresh();
 
         ch = getch(); // czekamy na klawisz

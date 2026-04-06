@@ -1,27 +1,20 @@
 #pragma once
 #include "Organizm.hpp"
+#include "Zwierze.hpp"
 
 
 
-class Wilk : public Organizm
+
+class Wilk : public Zwierze
 {
 private:
 
-    int kierunek;
-    int remembered;
+ 
 
 public:
     Wilk(int startX, int startY, Swiat *world);
     ~Wilk() override;
 
-    void action() override;
-
-    void do_turn() override;
-    
-    void collision(Organizm *organizm) override;
-    void move() override;
-    void breed() override;
-
-
-    char get_Char() const override;
+    char get_Draw() const override;
+    void create_offspring(int potential_x, int potential_y) override;
 };
