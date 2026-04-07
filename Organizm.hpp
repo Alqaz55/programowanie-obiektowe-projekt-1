@@ -13,6 +13,7 @@ protected:
     int x, y;
     int wiek;
     int did_turn;
+    int alive;
     typ type;
     Organizm *next_in_line;
     Organizm *previous;
@@ -29,6 +30,7 @@ public:
     virtual int get_X() const;
     virtual int get_Y() const;
     virtual int get_Age() const;
+    int is_alive() const;
 
     virtual Organizm *get_next() const;
     virtual Organizm *get_previous() const;

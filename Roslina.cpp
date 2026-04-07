@@ -7,6 +7,7 @@ Roslina::Roslina(int startX, int startY, Swiat *startworld)
    
     initiative = 0;
     type = flora;
+    alive=1;
 }
 
 // Destruktor
@@ -16,8 +17,8 @@ Roslina::~Roslina()
 
 void Roslina::plant()
 {
-    int attempts = 3;
-    while (attempts--)
+    int attempts = rand()%5;
+    while (!attempts++)
     {
         int potential_x, potential_y;
         choose_square(potential_x, potential_y);

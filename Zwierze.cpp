@@ -10,7 +10,6 @@ Zwierze::~Zwierze() {}
 
 void Zwierze::do_turn()
 {
-    debuguj << "owo" << endl;
     action();
     did_turn = 1;
     wiek++;

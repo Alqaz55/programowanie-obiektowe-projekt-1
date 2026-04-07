@@ -7,7 +7,7 @@ Organizm::~Organizm() {}
 
 Organizm::Organizm(int new_x, int new_y, Swiat *new_world)
 {
-  
+
     x = new_x;
     y = new_y;
     wiek = 0;
@@ -15,6 +15,7 @@ Organizm::Organizm(int new_x, int new_y, Swiat *new_world)
     next_in_line = nullptr;
     previous = nullptr;
     world = new_world;
+    alive = 1;
 }
 
 int Organizm::get_Strength() const { return strength; }
@@ -22,6 +23,7 @@ int Organizm::get_Initiative() const { return initiative; }
 int Organizm::get_X() const { return x; }
 int Organizm::get_Y() const { return y; }
 int Organizm::get_Age() const { return wiek; }
+int Organizm::is_alive() const { return alive; }
 
 Organizm *Organizm::get_next() const { return next_in_line; }
 Organizm *Organizm::get_previous() const { return previous; }
@@ -35,13 +37,24 @@ void Organizm::set_Age(int new_age) { wiek = new_age; }
 void Organizm::set_next(Organizm *new_next) { next_in_line = new_next; }
 void Organizm::set_previous(Organizm *new_previous) { previous = new_previous; }
 
-
-void Organizm::death() { world->add_to_dead(this);}
-void Organizm::reset_turn() {
-    did_turn=0;
+void Organizm::death()
+{
+    if (!alive)
+    {
+        return;
+    }
+    else
+    {
+        alive = 0;
+        debuguj << "umiera          " << get_Draw() << endl;
+        world->set_Pole(x, y, nullptr);
+        world->add_to_dead(this);
+    }
 }
-
-
+void Organizm::reset_turn()
+{
+    did_turn = 0;
+}
 
 void Organizm::choose_square(int &potential_x, int &potential_y)
 {
@@ -54,6 +67,7 @@ void Organizm::choose_square(int &potential_x, int &potential_y)
         potential_y = y;
         return;
     }
+   
     if (x + dx >= 0 && x + dx < WORLD_WIDTH)
     {
         potential_x = x + dx;

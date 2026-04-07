@@ -34,10 +34,12 @@ int main()
     keypad(stdscr, TRUE); // włącz obsługę klawiszy specjalnych
     start_color();
 
-    init_pair(KOLOR_TRAWY,COLOR_BLACK, COLOR_GREEN);
+    init_pair(KOLOR_TRAWY,COLOR_BLUE, COLOR_GREEN);
     init_pair(KOLOR_MLECZY,COLOR_BLACK, COLOR_YELLOW);
 
 
+   
+    
     Swiat *swiat = new Swiat;
     // --- Tworzymy wilka ---
     Wilk *zwierzak = new Wilk(2, 2, swiat);
@@ -74,6 +76,7 @@ int main()
             swiat->remember_key(ch);
 
             swiat->turn();
+
         }
         else if (ch == 'a' || ch == 'b')
         {

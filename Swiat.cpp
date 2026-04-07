@@ -94,19 +94,19 @@ void Swiat::add_after_a(Organizm *a, Organizm *nowa)
     }
 }
 
-void Swiat::rechoose_square_after_a(Organizm *a)
+void Swiat::remove_after_a(Organizm *a)
 {
     if (a != nullptr && a->get_next() != nullptr)
     {
-        Organizm *being_rechoose_squared = a->get_next();
-        Organizm *new_next = being_rechoose_squared->get_next();
+        Organizm *being_removed = a->get_next();
+        Organizm *new_next = being_removed->get_next();
         a->set_next(new_next);
         if (new_next != nullptr)
         {
 
             new_next->set_previous(a);
         }
-        delete being_rechoose_squared;
+        delete being_removed;
     }
 }
 
@@ -138,6 +138,7 @@ void Swiat::add_to_organisms()
         if (organisms == nullptr)
         {
             start_organisms(being_added);
+            this->set_Pole(being_added->get_X(), being_added->get_Y(), being_added);
         }
         else
         {
@@ -147,6 +148,7 @@ void Swiat::add_to_organisms()
                 Organizm *old = organisms;
                 start_organisms(being_added);
                 add_after_a(being_added, old);
+                this->set_Pole(being_added->get_X(), being_added->get_Y(), being_added);
             }
             else
             {
@@ -158,6 +160,7 @@ void Swiat::add_to_organisms()
                     current = current->get_next();
                 }
                 add_after_a(current, being_added);
+                this->set_Pole(being_added->get_X(), being_added->get_Y(), being_added);
             }
         }
         being_added = next_added;
@@ -239,7 +242,11 @@ void Swiat::draw_world()
     Organizm *current = organisms;
     while (current != nullptr)
     {
-        current->draw();
+        if (current->is_alive())
+        {
+
+            current->draw();
+        }
         current = current->get_next();
     }
 }
@@ -253,13 +260,18 @@ void Swiat::turn()
     Organizm *current = organisms;
     while (current != nullptr)
     {
-        current->do_turn();
-        debuguj << current->get_Draw() << "  x: " << current->get_X() << "  y: " << current->get_Y() << "  age: " << current->get_Age() << endl;
+        if (current->is_alive())
+        {
+
+            current->do_turn();
+            debuguj << current->get_Draw() << "  x: " << current->get_X() << "  y: " << current->get_Y() << "  age: " << current->get_Age() << endl;
+        }
         current = current->get_next();
     }
-   
+
     debuguj << endl;
 
+    delete_dead();
     add_to_organisms();
 }
 
