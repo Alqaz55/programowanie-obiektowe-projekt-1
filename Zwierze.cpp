@@ -17,7 +17,7 @@ void Zwierze::do_turn()
 
 void Zwierze::action()
 {
-    int potential_x, potential_y;
+    int potential_x = x, potential_y = y;
 
     choose_square(potential_x, potential_y);
 
@@ -50,7 +50,11 @@ void Zwierze::collision(Zwierze *opponent)
 
     if (get_Draw() == opponent->get_Draw())
     {
-        breed();
+        if(!opponent->did_turn){
+            breed();
+            opponent->did_turn=1;
+
+        }
     }
     else
     {

@@ -48,7 +48,6 @@ void Organizm::death()
         alive = 0;
         debuguj << "umiera          " << get_Draw() << endl;
         world->set_Pole(x, y, nullptr);
-        world->add_to_dead(this);
     }
 }
 void Organizm::reset_turn()

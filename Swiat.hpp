@@ -42,6 +42,7 @@ public:
   void draw_world();
   void turn();
 
+  void delete_list(Organizm* &head);
 
   pole *get_Pole(int x, int y);
   void set_Pole(int x, int y, Organizm *organism);

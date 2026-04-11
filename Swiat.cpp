@@ -5,63 +5,31 @@ class Organizm;
 
 Swiat::Swiat()
 {
-    {
-        organisms = nullptr;
-        added_organisms = nullptr;
-        dead_organisms = nullptr;
-        key = 0;
 
-        for (int i = 0; i < WORLD_WIDTH; i++)
+    organisms = nullptr;
+    added_organisms = nullptr;
+    key = 0;
+
+    for (int i = 0; i < WORLD_WIDTH; i++)
+    {
+        for (int j = 0; j < WORLD_HEIGHT; j++)
         {
-            for (int j = 0; j < WORLD_HEIGHT; j++)
-            {
-                world[i][j].organisms = nullptr;
-            }
+            world[i][j].organisms = nullptr;
         }
     }
 }
 
 Swiat::~Swiat()
 {
-    Organizm *current = organisms;
-    while (current != nullptr)
+    delete_list(organisms);
+    delete_list(added_organisms);
+    for (int i = 0; i < WORLD_WIDTH; i++)
     {
-        Organizm *next = current->get_next();
-
-        if (dead_organisms == nullptr)
+        for (int j = 0; j < WORLD_HEIGHT; j++)
         {
-            dead_organisms = current;
-
-            dead_organisms->set_previous(nullptr);
-            dead_organisms->set_next(nullptr);
+            world[i][j].organisms = nullptr;
         }
-        else
-        {
-            add_after_a(dead_organisms, current);
-        }
-        current = next;
     }
-    current = added_organisms;
-    while (current != nullptr)
-    {
-        Organizm *next = current->get_next();
-
-        if (dead_organisms == nullptr)
-        {
-            dead_organisms = current;
-
-            dead_organisms->set_previous(nullptr);
-            dead_organisms->set_next(nullptr);
-        }
-        else
-        {
-            add_after_a(dead_organisms, current);
-        }
-        current = next;
-    }
-    organisms = nullptr;
-    added_organisms = nullptr;
-    delete_dead();
 }
 
 void Swiat::start_organisms(Organizm *a)
@@ -167,60 +135,33 @@ void Swiat::add_to_organisms()
     }
     added_organisms = nullptr;
 }
-
 void Swiat::delete_dead()
 {
-    Organizm *being_killed = dead_organisms;
+    Organizm *current = organisms;
 
-    while (being_killed != nullptr)
+    while (current != nullptr)
     {
-        Organizm *next_killed = being_killed->get_next();
-        being_killed->set_previous(nullptr);
-        being_killed->set_next(nullptr);
+        Organizm *next = current->get_next();
 
-        delete being_killed;
-        being_killed = next_killed;
-    }
-    dead_organisms = nullptr;
-}
+        if (!current->is_alive())
+        {
+            Organizm *prev = current->get_previous();
 
-void Swiat::add_to_dead(Organizm *nowy)
-{
-    if (nowy->get_previous() != nullptr)
-    {
-        nowy->get_previous()->set_next(nowy->get_next());
-    }
-    if (nowy->get_next() != nullptr)
-    {
-        nowy->get_next()->set_previous(nowy->get_previous());
-    }
+            set_Pole(current->get_X(), current->get_Y(), nullptr);
 
-    if (nowy == organisms)
-    {
-        organisms = nowy->get_next();
-        if (organisms != nullptr)
-            organisms->set_previous(nullptr);
-    }
-    if (nowy == added_organisms)
-    {
-        added_organisms = nowy->get_next();
-        if (added_organisms != nullptr)
+            if (prev != nullptr)
+                prev->set_next(next);
+            else
+                organisms = next;
 
-            added_organisms->set_previous(nullptr);
-    }
+            if (next != nullptr)
+                next->set_previous(prev);
 
-    nowy->set_next(nullptr);
-    nowy->set_previous(nullptr);
+            delete current;
+        }
 
-    if (dead_organisms == nullptr)
-    {
-        dead_organisms = nowy;
+        current = next;
     }
-    else
-    {
-        add_after_a(dead_organisms, nowy);
-    }
-    set_Pole(nowy->get_X(), nowy->get_Y(), nullptr);
 }
 
 void Swiat::remember_key(int key) { this->key = key; }
@@ -271,9 +212,27 @@ void Swiat::turn()
 
     debuguj << endl;
 
-    delete_dead();
     add_to_organisms();
+    delete_dead();
+    reset_turn();
 }
 
 pole *Swiat::get_Pole(int x, int y) { return &this->world[x][y]; }
 void Swiat::set_Pole(int x, int y, Organizm *organism) { this->world[x][y].organisms = organism; }
+
+void Swiat::delete_list(Organizm *&head)
+{
+    Organizm *being_killed = head;
+
+    while (being_killed != nullptr)
+    {
+        Organizm *next_killed = being_killed->get_next();
+        set_Pole(being_killed->get_X(), being_killed->get_Y(), nullptr);
+        being_killed->set_previous(nullptr);
+        being_killed->set_next(nullptr);
+
+        delete being_killed;
+        being_killed = next_killed;
+    }
+    head = nullptr;
+}

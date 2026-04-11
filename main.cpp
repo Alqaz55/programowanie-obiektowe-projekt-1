@@ -2,6 +2,7 @@
 #include "Wilk.hpp"
 #include "Czlowiek.hpp"
 #include "Trawa.hpp"
+#include "Lis.hpp"
 
 ofstream debuguj("debug.txt");
 
@@ -34,19 +35,21 @@ int main()
     keypad(stdscr, TRUE); // włącz obsługę klawiszy specjalnych
     start_color();
 
-    init_pair(KOLOR_TRAWY,COLOR_BLUE, COLOR_GREEN);
-    init_pair(KOLOR_MLECZY,COLOR_BLACK, COLOR_YELLOW);
+    init_pair(KOLOR_TRAWY, COLOR_BLUE, COLOR_GREEN);
+    init_pair(KOLOR_MLECZY, COLOR_CYAN, COLOR_BLACK);
 
-
-   
-    
     Swiat *swiat = new Swiat;
     // --- Tworzymy wilka ---
     Wilk *zwierzak = new Wilk(2, 2, swiat);
-        Wilk* zwierzak2=new Wilk(2, 3, swiat);
+    Wilk *zwierzak2 = new Wilk(2, 3, swiat);
 
-    Czlowiek* czlowiek=new Czlowiek(2, 4, swiat);
-    Trawa* trawka = new Trawa(7,7,swiat);
+    Czlowiek *czlowiek = new Czlowiek(2, 4, swiat);
+    Trawa *trawka = new Trawa(7, 7, swiat);
+
+    Lis *lisek = new Lis(1, 1, swiat);
+    Lis *lisek2 = new Lis(2, 6, swiat);
+    swiat->add_to_added(lisek2);
+    swiat->add_to_added(lisek);
 
     swiat->add_to_added(zwierzak);
     swiat->add_to_added(zwierzak2);
@@ -71,17 +74,13 @@ int main()
         { // ESC kończy program
             break;
         }
-        else if (ch == KEY_UP || ch == KEY_DOWN || ch == KEY_LEFT || ch == KEY_RIGHT)
+        else if (ch == 'a' ||ch == KEY_UP || ch == KEY_DOWN || ch == KEY_LEFT || ch == KEY_RIGHT)
         {
             swiat->remember_key(ch);
 
             swiat->turn();
-
         }
-        else if (ch == 'a' || ch == 'b')
-        {
-            swiat->remember_key(ch);
-        }
+       
     }
 
     // --- koniec ncurses ---

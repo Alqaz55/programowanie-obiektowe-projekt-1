@@ -5,8 +5,8 @@
 Wilk::Wilk(int startX, int startY, Swiat *world)
 : Zwierze(startX, startY, world)
 {
-    strength = 5;
-    initiative = 5;
+    strength = WILK_STRENGTH;
+    initiative = WILK_INITIATIVE;
 }
 
 Wilk::~Wilk()
@@ -28,7 +28,7 @@ void Wilk::create_offspring(int potential_x, int potential_y)
 
 char Wilk::get_Draw() const
 {
-    return 'W';
+    return WILK_CHAR;
 }
 
 
