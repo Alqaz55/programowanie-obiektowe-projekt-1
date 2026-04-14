@@ -10,6 +10,7 @@ Czlowiek::Czlowiek(int startX, int startY, Swiat *world)
     initiative = CZLOWIEK_INITIATIVE;
     active_skill = 0;
     cooldown = 0;
+    debuguj << "cndkjsfhni" << endl;
 }
 
 Czlowiek::~Czlowiek()
@@ -18,7 +19,7 @@ Czlowiek::~Czlowiek()
 
 void Czlowiek::create_offspring(int x, int y) {}
 
-char Czlowiek::get_Draw() const
+char Czlowiek::get_draw() const
 {
     return CZLOWIEK_CHAR;
 }
@@ -74,7 +75,12 @@ void Czlowiek::choose_square(int &potential_x, int &potential_y)
 void Czlowiek::action()
 {
 
-    debuguj << get_Draw() << "    idzie z x:" << x << "y:" << y << endl;
+    if (world->get_key() == RESET_DIRECTION)
+    {
+        debuguj << get_draw() << "   Nie idzie z x:" << x << "y:" << y << endl;
+        return;
+    }
+    debuguj << get_draw() << "    idzie z x:" << x << "y:" << y << endl;
     int potential_x, potential_y;
 
     choose_square(potential_x, potential_y);
@@ -82,22 +88,28 @@ void Czlowiek::action()
     {
         return;
     }
-    Organizm *opponent = world->get_Pole(potential_x, potential_y)->organisms;
-    if (opponent == NULL || opponent == this)
+
+    pole *square = world->get_pole(potential_x, potential_y);
+    if (square->zwierze == NULL || square->zwierze == this)
     {
 
-        world->set_Pole(x, y, nullptr);
+        world->set_pole_zwierze(x, y, nullptr);
         x = potential_x;
         y = potential_y;
-        world->set_Pole(x, y, this);
+        world->set_pole_zwierze(x, y, this);
     }
     else
     {
 
-        debuguj << get_Draw() << " kolizja z " << opponent->get_Draw() << "x:" << opponent->get_X() << " y:" << opponent->get_Y() << endl;
-        opponent->stepped_on(this);
+        debuguj << get_draw() << " kolizja z " << square->zwierze->get_draw() << "x:" << square->zwierze->get_X() << " y:" << square->zwierze->get_Y() << endl;
+        square->zwierze->stepped_on(this);
+    }
+    if (square->roslina != nullptr)
+    {
+        square->roslina->stepped_on(this);
     }
 }
+
 void Czlowiek::do_turn()
 {
 
@@ -148,23 +160,41 @@ void Czlowiek::use_skill()
         if (current_x == x && current_y == y)
             continue;
 
-        pole *p = world->get_Pole(current_x, current_y);
+        pole *p = world->get_pole(current_x, current_y);
         if (!p)
             continue;
 
-        Organizm *o = p->organisms;
+        Zwierze *animal = p->zwierze;
+        Roslina *plant = p->roslina;
 
-        if (o)
+        if (animal != nullptr)
         {
-            debuguj << o->get_Draw() << "          smierc skillem" << endl;
-            o->death();
+            debuguj << animal->get_draw() << "          smierc skillem" << endl;
+            animal->death();
+        }
+        if (plant != nullptr)
+        {
+            debuguj << plant->get_draw() << "          smierc skillem" << endl;
+            plant->death();
         }
     }
 }
 void Czlowiek::draw()
 {
-    attron(COLOR_PAIR(KOLOR_MLECZY));
-    char symbol = get_Draw();
-    mvaddch(y + 1, x + 1, symbol);
-    attroff(COLOR_PAIR(KOLOR_MLECZY));
+    char symbol = get_draw();
+    Roslina *plant = world->get_pole(x, y)->roslina;
+    if (plant == nullptr)
+    {
+
+        attron(COLOR_PAIR(KOLOR_MLECZY));
+        mvaddch(y + 1, x + 1, symbol);
+        attroff(COLOR_PAIR(KOLOR_MLECZY));
+    }
+    else
+    {
+        attron(COLOR_PAIR(plant->get_Color()));
+        mvaddch(y + 1, x + 1, symbol);
+        attroff(COLOR_PAIR(plant->get_Color()));
+        plant->set_drawn(1);
+    }
 }

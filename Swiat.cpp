@@ -1,6 +1,8 @@
 #include "defines.hpp"
 #include "Swiat.hpp"
 #include "Organizm.hpp"
+#include "Roslina.hpp"
+#include "Zwierze.hpp"
 class Organizm;
 
 Swiat::Swiat()
@@ -8,13 +10,16 @@ Swiat::Swiat()
 
     organisms = nullptr;
     added_organisms = nullptr;
-    key = 0;
+    key = RESET_DIRECTION;
 
+    debuguj << "wuw" << endl;
     for (int i = 0; i < WORLD_WIDTH; i++)
     {
         for (int j = 0; j < WORLD_HEIGHT; j++)
         {
-            world[i][j].organisms = nullptr;
+
+            world[i][j].zwierze = nullptr;
+            world[i][j].roslina = nullptr;
         }
     }
 }
@@ -27,7 +32,9 @@ Swiat::~Swiat()
     {
         for (int j = 0; j < WORLD_HEIGHT; j++)
         {
-            world[i][j].organisms = nullptr;
+
+            world[i][j].zwierze = nullptr;
+            world[i][j].roslina = nullptr;
         }
     }
 }
@@ -100,38 +107,81 @@ void Swiat::add_to_organisms()
     while (being_added != nullptr)
     {
         Organizm *next_added = being_added->get_next();
+        debuguj << being_added->get_draw() << being_added->get_index() << "         zastanawiam sie" << endl;
+
         being_added->set_previous(nullptr);
         being_added->set_next(nullptr);
+        Organizm *square_occupied = nullptr;
 
-        if (organisms == nullptr)
+        square_occupied = being_added->check_pole_of_type(being_added->get_X(), being_added->get_Y());
+
+        if (being_added->get_X() < 0 || being_added->get_X() > WORLD_WIDTH || being_added->get_Y() < 0 || being_added->get_Y() > WORLD_HEIGHT)
         {
-            start_organisms(being_added);
-            this->set_Pole(being_added->get_X(), being_added->get_Y(), being_added);
+            debuguj << being_added->get_draw() << being_added->get_index() << " chcial byc poza mapa" << endl;
+        }
+        else if (square_occupied != nullptr && square_occupied != being_added)
+        {
+            debuguj << being_added->get_draw() << being_added->get_index() << " chcial byc na zajetym polu" << endl;
         }
         else
         {
-            Organizm *current = organisms;
-            if (current->get_Initiative() < being_added->get_Initiative() || (current->get_Initiative() == being_added->get_Initiative() && current->get_Age() < being_added->get_Age()))
+
+            if (organisms == nullptr)
             {
-                Organizm *old = organisms;
+                debuguj << "puste organizmy" << endl;
                 start_organisms(being_added);
-                add_after_a(being_added, old);
-                this->set_Pole(being_added->get_X(), being_added->get_Y(), being_added);
+                being_added->change_pole_of_type(being_added->get_X(), being_added->get_Y(), being_added);
+                debuguj << being_added->get_draw() << being_added->get_index() << "         dodany" << endl;
             }
             else
             {
-
-                while (current->get_next() != nullptr && (current->get_next()->get_Initiative() > being_added->get_Initiative() ||
-                                                          (current->get_next()->get_Initiative() == being_added->get_Initiative() &&
-                                                           current->get_next()->get_Age() > being_added->get_Age())))
+                Organizm *current = organisms;
+                if (current->get_Initiative() < being_added->get_Initiative() || (current->get_Initiative() == being_added->get_Initiative() && current->get_age() < being_added->get_age()))
                 {
-                    current = current->get_next();
+                    debuguj << "pierwszy" << endl;
+
+                    Organizm *old = organisms;
+                    organisms = being_added;
+                    being_added->set_previous(nullptr);
+                    being_added->set_next(old);
+                    being_added->change_pole_of_type(being_added->get_X(), being_added->get_Y(), being_added);
+                    debuguj << being_added->get_draw() << being_added->get_index() << "         dodany" << endl;
                 }
-                add_after_a(current, being_added);
-                this->set_Pole(being_added->get_X(), being_added->get_Y(), being_added);
+                else
+                {
+
+                    while (current->get_next() != nullptr && (current->get_next()->get_Initiative() > being_added->get_Initiative() ||
+                                                              (current->get_next()->get_Initiative() == being_added->get_Initiative() &&
+                                                               current->get_next()->get_age() > being_added->get_age())))
+                    {
+                        current = current->get_next();
+                    }
+                    debuguj << "pozniej" << endl;
+
+                    add_after_a(current, being_added);
+                    being_added->change_pole_of_type(being_added->get_X(), being_added->get_Y(), being_added);
+                    debuguj << being_added->get_draw() << being_added->get_index() << "         dodany" << endl;
+                }
             }
         }
+
         being_added = next_added;
+
+        // Organizm *help = organisms;
+        // debuguj << endl
+        //         << endl
+        //         << " DODAWANE" << endl;
+        // while (help != nullptr)
+        // {
+        //     if (help->is_alive())
+        //     {
+
+        //         debuguj << help->get_draw() << help->get_index() << "  x: " << help->get_X() << "  y: " << help->get_Y() << "  age: " << help->get_age() << endl;
+        //     }
+        //     help = help->get_next();
+        // }
+        // debuguj << endl
+        //         << endl;
     }
     added_organisms = nullptr;
 }
@@ -147,7 +197,7 @@ void Swiat::delete_dead()
         {
             Organizm *prev = current->get_previous();
 
-            set_Pole(current->get_X(), current->get_Y(), nullptr);
+            current->change_pole_of_type(current->get_X(), current->get_Y(), nullptr);
 
             if (prev != nullptr)
                 prev->set_next(next);
@@ -183,12 +233,22 @@ void Swiat::draw_world()
     Organizm *current = organisms;
     while (current != nullptr)
     {
-        if (current->is_alive())
+        if (current->is_alive() && !current->get_drawn())
         {
-
             current->draw();
+            current->set_drawn(1);
         }
         current = current->get_next();
+    }
+    Organizm *reset_current = organisms;
+    while (reset_current != nullptr)
+    {
+        if (reset_current->is_alive())
+        {
+
+            reset_current->set_drawn(0);
+        }
+        reset_current = reset_current->get_next();
     }
 }
 
@@ -205,7 +265,8 @@ void Swiat::turn()
         {
 
             current->do_turn();
-            debuguj << current->get_Draw() << "  x: " << current->get_X() << "  y: " << current->get_Y() << "  age: " << current->get_Age() << endl;
+            if (dynamic_cast<Zwierze *>(current))
+                debuguj << current->get_draw() << current->get_index() << "  x: " << current->get_X() << "  y: " << current->get_Y() << "  age: " << current->get_age() << endl;
         }
         current = current->get_next();
     }
@@ -217,8 +278,22 @@ void Swiat::turn()
     reset_turn();
 }
 
-pole *Swiat::get_Pole(int x, int y) { return &this->world[x][y]; }
-void Swiat::set_Pole(int x, int y, Organizm *organism) { this->world[x][y].organisms = organism; }
+pole *Swiat::get_pole(int x, int y) { return &this->world[x][y]; }
+
+void Swiat::set_pole(int x, int y, Roslina *plant, Zwierze *animal)
+{
+    world[x][y].roslina = plant;
+    world[x][y].zwierze = animal;
+}
+
+void Swiat::set_pole_roslina(int x, int y, Roslina *plant)
+{
+    world[x][y].roslina = plant;
+}
+void Swiat::set_pole_zwierze(int x, int y, Zwierze *animal)
+{
+    world[x][y].zwierze = animal;
+}
 
 void Swiat::delete_list(Organizm *&head)
 {
@@ -227,7 +302,7 @@ void Swiat::delete_list(Organizm *&head)
     while (being_killed != nullptr)
     {
         Organizm *next_killed = being_killed->get_next();
-        set_Pole(being_killed->get_X(), being_killed->get_Y(), nullptr);
+        set_pole(being_killed->get_X(), being_killed->get_Y(), nullptr, nullptr);
         being_killed->set_previous(nullptr);
         being_killed->set_next(nullptr);
 

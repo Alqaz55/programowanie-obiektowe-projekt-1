@@ -13,7 +13,7 @@ public:
     ~Czlowiek() override;
 
     void choose_square(int& potential_x, int& potential_y) override;
-    char get_Draw() const override;
+    char get_draw() const override;
     int get_key();
     void create_offspring(int x, int y) override;
     void do_turn() override;

@@ -1,18 +1,16 @@
 #pragma once
 
-
 #include <vector>
 using namespace std;
 #include <iostream>
-#include <cstdlib>  
+#include <cstdlib>
 #include <ctime>
 #include <fstream>
 #include <stdio.h>
 #include <ncurses.h>
 
-
-#define WORLD_WIDTH 8
-#define WORLD_HEIGHT 8
+#define WORLD_WIDTH 4
+#define WORLD_HEIGHT 4
 #define MAX_ORG_PER_SQUARE 2
 
 #define LEFT -1
@@ -20,27 +18,33 @@ using namespace std;
 #define DOWN 1
 #define UP -1
 
-
-
-enum typ{
-fauna,
-flora
-};
+typedef enum
+{
+    flora,
+    fauna,
+    ilosc_typow
+} typ;
 
 extern ofstream debuguj;
 
+extern ofstream loguj_mape;
 
-enum Kolory{
+
+
+
+
+enum Kolory
+{
     BRAK_KOLORU,
     KOLOR_TRAWY,
     KOLOR_MLECZY
 };
 
 
+
 #define CZLOWIEK_STRENGTH 5
 #define CZLOWIEK_INITIATIVE 4
 #define CZLOWIEK_CHAR 'C'
-
 
 #define WILK_STRENGTH 9
 #define WILK_INITIATIVE 5
@@ -60,6 +64,7 @@ enum Kolory{
 #define ZOLW_DODGES 5
 #define ZOLW_MOVEMENT_CHANCE 3
 
-#define ANTILOPE_STRENGTH 4
-#define ANTILOPE_INITIATIVE 4
-#define ANTILOPE_CHAR 'A'
+#define ANTYLOPA_STRENGTH 4
+#define ANTYLOPA_INITIATIVE 4
+#define ANTYLOPA_CHAR 'A'
+#define RESET_DIRECTION ' '
