@@ -1,0 +1,5 @@
+world_width: 4 world_heigh: 10
+symbol C  initiative 40  strength 10  age 0 x: 3  y: 3
+symbol W  initiative 5  strength 9  age 0 x: 2  y: 1
+symbol W  initiative 5  strength 9  age 0 x: 2  y: 2
+

@@ -1,0 +1,72 @@
+Guarana.cpp: In member function ‘virtual void Guarana::do_effect(Organism*, Collision_effect&)’:
+Guarana.cpp:31:63: warning: unused parameter ‘result’ [-Wunused-parameter]
+   31 | void Guarana::do_effect(Organism *organism, Collision_effect &result)
+      |                                             ~~~~~~~~~~~~~~~~~~^~~~~~
+Antelope.cpp: In member function ‘virtual int Antelope::opponent_dodges(int)’:
+Antelope.cpp:65:35: warning: unused parameter ‘strength’ [-Wunused-parameter]
+   65 | int Antelope::opponent_dodges(int strength)
+      |                               ~~~~^~~~~~~~
+main.cpp: In function ‘int main()’:
+main.cpp:23:9: warning: unused variable ‘ch’ [-Wunused-variable]
+   23 |     int ch;
+      |         ^~
+Swiat.cpp: In member function ‘void Swiat::set_field(coordinates, Organism*, Organism*)’:
+Swiat.cpp:358:69: warning: unused parameter ‘animal’ [-Wunused-parameter]
+  358 | void Swiat::set_field(coordinates place, Organism *plant, Organism new_organismnimal)
+      |                                                           ~~~~~~~~~~^~~~~~
+Swiat.cpp: In member function ‘void Swiat::draw_log()’:
+Swiat.cpp:703:45: warning: unused variable ‘start_y’ [-Wunused-variable]
+  703 |     int start_x = world_width + BORDER * 2, start_y = world_height + BORDER;
+      |                                             ^~~~~~~
+Human.cpp: In member function ‘virtual void Human::create_offspring(coordinates)’:
+Human.cpp:28:45: warning: unused parameter ‘place’ [-Wunused-parameter]
+   28 | void Human::create_offspring(coordinates place) {}
+      |                                 ~~~~~~~~~~~~^~~~~
+Animal.cpp: In member function ‘virtual void Animal::breed(Collision_effect&)’:
+Animal.cpp:122:19: warning: unused variable ‘organism’ [-Wunused-variable]
+  122 |         Organism *organism = check_organism(potential_square);
+      |                   ^~~~~~~~
+Animal.cpp:114:39: warning: unused parameter ‘result’ [-Wunused-parameter]
+  114 | void Animal::breed(Collision_effect &result)
+      |                     ~~~~~~~~~~~~~~~~~~^~~~~~
+Animal.cpp: In member function ‘virtual int Animal::attacker_avoids(int)’:
+Animal.cpp:172:34: warning: unused parameter ‘strength’ [-Wunused-parameter]
+  172 | int Animal::attacker_avoids(int strength)
+      |                              ~~~~^~~~~~~~
+Animal.cpp: In member function ‘virtual int Animal::opponent_dodges(int)’:
+Animal.cpp:177:34: warning: unused parameter ‘strength’ [-Wunused-parameter]
+  177 | int Animal::opponent_dodges(int strength)
+      |                              ~~~~^~~~~~~~
+Plant.cpp: In member function ‘virtual void Plant::plant()’:
+Plant.cpp:33:13: warning: unused variable ‘potential_x’ [-Wunused-variable]
+   33 |         int potential_x, potential_y;
+      |             ^~~~~~~~~~~
+Plant.cpp:33:26: warning: unused variable ‘potential_y’ [-Wunused-variable]
+   33 |         int potential_x, potential_y;
+      |                          ^~~~~~~~~~~
+Plant.cpp: In member function ‘virtual void Plant::draw()’:
+Plant.cpp:68:9: warning: unused variable ‘color’ [-Wunused-variable]
+   68 |     int color = get_color();
+      |         ^~~~~
+Plant.cpp: In member function ‘virtual void Plant::create_offspring(coordinates)’:
+Plant.cpp:88:44: warning: unused parameter ‘place’ [-Wunused-parameter]
+   88 | void Plant::create_offspring(coordinates place)
+      |                                ~~~~~~~~~~~~^~~~~
+Plant.cpp: In member function ‘virtual void Plant::do_effect(Organism*, Collision_effect&)’:
+Plant.cpp:116:35: warning: unused parameter ‘organism’ [-Wunused-parameter]
+  116 | void Plant::do_effect(Organism *organism, Collision_effect &result)
+      |                         ~~~~~~~~~~^~~~~~~~
+Plant.cpp:116:63: warning: unused parameter ‘result’ [-Wunused-parameter]
+  116 | void Plant::do_effect(Organism *organism, Collision_effect &result)
+      |                                             ~~~~~~~~~~~~~~~~~~^~~~~~
+/usr/bin/ld: /tmp/cc79tzq7.o: in function `Swiat::start_game()':
+/home/alicja/Studia/Semestr2/programowanie-obiektowe/projekt-1-proba-3/Swiat.cpp:495:(.text+0x115f0): undefined reference to `Sheep::Sheep(int, int, Swiat*)'
+/usr/bin/ld: /home/alicja/Studia/Semestr2/programowanie-obiektowe/projekt-1-proba-3/Swiat.cpp:535:(.text+0x12482): undefined reference to `Dandelion::Dandelion(int, int, Swiat*)'
+/usr/bin/ld: /home/alicja/Studia/Semestr2/programowanie-obiektowe/projekt-1-proba-3/Swiat.cpp:551:(.text+0x12a56): undefined reference to `Nightshade::Nightshade(int, int, Swiat*)'
+/usr/bin/ld: /home/alicja/Studia/Semestr2/programowanie-obiektowe/projekt-1-proba-3/Swiat.cpp:559:(.text+0x12d40): undefined reference to `Hogweed::Hogweed(int, int, Swiat*)'
+/usr/bin/ld: /tmp/cc79tzq7.o: in function `Swiat::create_from_symbol(char, int, int)':
+/home/alicja/Studia/Semestr2/programowanie-obiektowe/projekt-1-proba-3/Swiat.cpp:663:(.text+0x162bf): undefined reference to `Sheep::Sheep(coordinates, Swiat*)'
+/usr/bin/ld: /home/alicja/Studia/Semestr2/programowanie-obiektowe/projekt-1-proba-3/Swiat.cpp:674:(.text+0x1651c): undefined reference to `Dandelion::Dandelion(coordinates, Swiat*)'
+/usr/bin/ld: /home/alicja/Studia/Semestr2/programowanie-obiektowe/projekt-1-proba-3/Swiat.cpp:678:(.text+0x1660e): undefined reference to `Hogweed::Hogweed(coordinates, Swiat*)'
+/usr/bin/ld: /home/alicja/Studia/Semestr2/programowanie-obiektowe/projekt-1-proba-3/Swiat.cpp:680:(.text+0x16684): undefined reference to `Nightshade::Nightshade(coordinates, Swiat*)'
+collect2: error: ld returned 1 exit status
