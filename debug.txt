@@ -1,0 +1,191 @@
+trying to load
+successfull load
+C1         considers
+puste Organismy
+C1         is added
+H11         considers
+H11         is added
+H10         considers
+H10         is added
+N9         considers
+N9         is added
+N8         considers
+N8         is added
+N7         considers
+N7         is added
+U6         considers
+U6         is added
+D5         considers
+D5         is added
+D4         considers
+D4         is added
+D3         considers
+D3         is added
+G2         considers
+G2         is added
+G1         considers
+G1         is added
+Z16         considers
+Z16         is added
+Z15         considers
+Z15         is added
+L14         considers
+L14         is added
+A13         considers
+A13         is added
+A12         considers
+A12         is added
+A11         considers
+A11         is added
+A10         considers
+A10         is added
+A9         considers
+A9         is added
+A8         considers
+A8         is added
+A7         considers
+A7         is added
+A6         considers
+A6         is added
+O5         considers
+O5         is added
+O4         considers
+O4         is added
+O3         considers
+O3         is added
+W2         considers
+W2         is added
+
+
+NEW TURN:    1
+
+
+C1 is on Cx:9 y:11
+has strength:     10
+C1 collides with W2   x:8 y:11
+
+killed opponent
+dies          W2
+skill:    0cooldown:  0
+C1  x: 8  y: 11  age: 1
+O3 is on Ox:9 y:1
+has strength:     4
+O3 goes to Ox:8 y:0
+O3  x: 8  y: 0  age: 1
+O4 is on Ox:8 y:3
+has strength:     4
+O4 collides with A10   x:7 y:4
+Antelope ran away
+O4  x: 8  y: 3  age: 1
+O5 is on Ox:8 y:5
+has strength:     4
+O5 goes to Ox:9 y:4
+O5  x: 9  y: 4  age: 1
+A6 is on Ax:8 y:8
+has strength:     4
+A6 goes to Ax:9 y:9
+A6  x: 9  y: 9  age: 1
+A7 is on Ax:6 y:3
+has strength:     4
+A7 goes to Ax:6 y:4
+A7  x: 6  y: 4  age: 1
+A8 is on Ax:2 y:3
+has strength:     4
+A8 goes to Ax:3 y:3
+A8  x: 3  y: 3  age: 1
+A9 is on Ax:12 y:0
+has strength:     4
+A9 stays on Ax:12 y:0
+A9  x: 12  y: 0  age: 1
+A10 is on Ax:7 y:5
+has strength:     4
+A10 goes to Ax:6 y:7
+A10  x: 6  y: 7  age: 1
+A11 is on Ax:12 y:7
+has strength:     4
+A11 stays on Ax:12 y:7
+A11  x: 12  y: 7  age: 1
+A12 is on Ax:5 y:9
+has strength:     4
+A12 goes to Ax:6 y:10
+A12  x: 6  y: 10  age: 1
+A13 is on Ax:5 y:10
+has strength:     4
+A13 stays on Ax:5 y:10
+A13  x: 5  y: 10  age: 1
+L14 is on Lx:4 y:12
+has strength:     3
+L14 goes to Lx:3 y:12
+L14  x: 3  y: 12  age: 1
+Z15 is on Zx:11 y:5
+has strength:     2
+Z15 stays on Zx:11 y:5
+Z15  x: 11  y: 5  age: 1
+Z16 is on Zx:3 y:7
+has strength:     2
+Z16 stays on Zx:3 y:7
+Z16  x: 3  y: 7  age: 1
+A          death by Hogweed
+dies          A8
+Z          death by Hogweed
+dies          Z16
+
+G12         considers
+G12         is added
+H25         considers
+H25         is added
+H24         considers
+H24         is added
+N23         considers
+N23         is added
+N22         considers
+N22         is added
+N21         considers
+N21         is added
+D20         considers
+D20         is added
+D19         considers
+D19         is added
+D18         considers
+D18         is added
+D17         considers
+D17         is added
+D16         considers
+D16         is added
+D15         considers
+D15         is added
+D14         considers
+D14         is added
+G13         considers
+G13         is added
+C1 is on:   x:8    y: 11     alive
+W2 is on:   x:8    y: 11     dead
+O3 is on:   x:8    y: 0     alive
+O4 is on:   x:8    y: 3     alive
+O5 is on:   x:9    y: 4     alive
+A6 is on:   x:9    y: 9     alive
+A7 is on:   x:6    y: 4     alive
+A8 is on:   x:3    y: 3     dead
+A9 is on:   x:12    y: 0     alive
+A10 is on:   x:6    y: 7     alive
+A11 is on:   x:12    y: 7     alive
+A12 is on:   x:6    y: 10     alive
+A13 is on:   x:5    y: 10     alive
+L14 is on:   x:3    y: 12     alive
+Z15 is on:   x:11    y: 5     alive
+Z16 is on:   x:3    y: 7     dead
+
+
+C1 is on:   x:8    y: 11     alive
+O3 is on:   x:8    y: 0     alive
+O4 is on:   x:8    y: 3     alive
+O5 is on:   x:9    y: 4     alive
+A6 is on:   x:9    y: 9     alive
+A7 is on:   x:6    y: 4     alive
+A9 is on:   x:12    y: 0     alive
+A10 is on:   x:6    y: 7     alive
+A11 is on:   x:12    y: 7     alive
+A12 is on:   x:6    y: 10     alive
+A13 is on:   x:5    y: 10     alive
+L14 is on:   x:3    y: 12     alive
+Z15 is on:   x:11    y: 5     alive
